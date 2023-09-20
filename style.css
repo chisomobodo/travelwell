@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Ingrid+Darling&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%; 
+    padding: 20px;
+    max-width: 20%; 
+    height: auto; 
+
+}
+
+
+
+
+nav {
+    background-color: black; 
+    color: #fff; 
+    padding: 10px 0; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+
+nav ul li a:hover {
+    color: #ffd700; 
+}
+
+header {
+    background-color: black;
+    color: pink;
+    padding: 10px;
+    text-align: center;
+    font-family: croissant one, sans-serif;
+    font-size: 50px;
+}
+
+.hero, .feature, .testimonial {
+    padding: 20px;
+}
+
+.feature, .testimonial {
+    background-color: #f0f0f0;
+}
+
+.search {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#suggestions {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    background-color: whitesmoke; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    max-height: 150px;
+    overflow-y: auto;
+    
+    
+}
+
+#suggestions li {
+    /* padding: 5px; */
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #555; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#suggestions li:hover {
+    background-color: #605f5f;
+}
+
+
+
+
+
+.hero {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: none;
+    background: url(/images/pexels-alex-azabache-3264723.jpg) no-repeat center / cover;
+    width: auto;
+    height: 100vh;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+}
+
+.feature {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+.feature-item {
+    margin-bottom: 30px;
+}
+
+.feature-item img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.testimonial {
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+}
+
+.testimonial-item img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.content {
+    font-weight: bold;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    
+    width: 100%;
+}
+
+
+
+  /* Style footer links */
+  footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style footer links on hover */
+footer a:hover {
+    text-decoration: underline;
+}
