@@ -121,7 +121,7 @@ header {
     color: white;
     text-align: center;
     padding: none;
-    background: url(/images/pexels-alex-azabache-3264723.jpg) no-repeat center / cover;
+    background: url(./images/pexels-alex-azabache-3264723.jpg) no-repeat center / cover;
     width: auto;
     height: 100vh;
 }
