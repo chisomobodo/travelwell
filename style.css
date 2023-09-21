@@ -270,6 +270,15 @@ footer a:hover {
     header {
         font-size: 1.2rem; 
     }
+
+
+    .search {
+        padding: 5px; 
+    }
+
+    .search-container {
+        width: 70%; 
+    }
 }
 
 
