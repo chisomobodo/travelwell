@@ -3,15 +3,18 @@
 
 body {
     font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    
     
 }
 .logo {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 20%; 
-    padding: 20px;
-    max-width: 20%; 
+    left: 20px;
+    top: 20px;
+    /* width: 20%; 
+    padding: 20px; */
+    width: 10%; 
     height: auto; 
 
 }
@@ -23,13 +26,17 @@ nav {
     background-color: black; 
     color: #fff; 
     padding: 10px 0; 
+    
+    
 }
 
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    
     text-align: center; 
+    
 }
 
 nav ul li {
@@ -40,7 +47,7 @@ nav ul li a {
     text-decoration: none;
     color: #fff; 
     font-weight: bold; 
-    font-size: 18px; 
+    font-size: 1.2rem; 
 }
 
 
@@ -54,7 +61,10 @@ header {
     padding: 10px;
     text-align: center;
     font-family: croissant one, sans-serif;
-    font-size: 50px;
+    font-size: 2rem;
+   
+    
+    
 }
 
 .hero, .feature, .testimonial {
@@ -69,10 +79,11 @@ header {
     background-color: #eee;
     padding: 20px;
     text-align: center;
+    /* width: 100%; */
 }
 
 .search-container {
-    max-width: 400px;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -120,10 +131,10 @@ header {
     background-color: #0f0f0f;
     color: white;
     text-align: center;
-    padding: none;
+    padding: 60px 0;
     background: url(./images/pexels-alex-azabache-3264723.jpg) no-repeat center / cover;
     width: auto;
-    height: 100vh;
+    height: 70vh;
 }
 .hero img {
     max-width: 100%;
@@ -136,6 +147,7 @@ header {
     background-color: #f0f0f0;
     padding: 40px;
     text-align: center;
+    /* width: 100%; */
 }
 
 .feature-item {
@@ -152,7 +164,8 @@ header {
 .testimonial {
     padding: 40px;
     text-align: center;
-}
+     /* width: 100%; */
+} 
 
 .testimonial-item {
     margin-bottom: 30px;
@@ -174,10 +187,11 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
-    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute; 
     
-    width: 100%;
+     width: 100%; 
 }
 
 
@@ -192,3 +206,8 @@ footer {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
