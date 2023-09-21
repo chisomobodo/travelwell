@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     padding: 0;
     margin: 0;
+    /* background-color: rgba(34, 34, 235, 0.461); */
     
     
 }
@@ -135,7 +136,15 @@ header {
     background: url(./images/pexels-alex-azabache-3264723.jpg) no-repeat center / cover;
     width: auto;
     height: 70vh;
+    
 }
+
+
+
+
+
+
+
 .hero img {
     max-width: 100%;
     height: auto;
@@ -148,6 +157,7 @@ header {
     padding: 40px;
     text-align: center;
     /* width: 100%; */
+    
 }
 
 .feature-item {
@@ -159,6 +169,7 @@ header {
     height: auto;
     margin-bottom: 20px;
     border-radius: 10px;
+    
 }
 
 .testimonial {
@@ -196,16 +207,71 @@ footer {
 
 
 
-  /* Style footer links */
+  
   footer a {
     color: white;
     text-decoration: none;
 }
 
-/* Style footer links on hover */
+
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .logo {
+        width: 20%;
+        top: 10px; 
+    }
+
+    nav {
+        background-color: black; 
+        padding: 10px 0; 
+    }
+    nav ul li {
+        margin-right: 10px; 
+    }
+
+    header {
+        font-size: 1.5rem; 
+    }
+
+    .hero {
+        padding: 40px 0; 
+        height: auto; 
+        background-size: cover; 
+    }
+
+   
+}
+
+
+@media screen and (max-width: 414px) {
+    
+
+    nav {
+        background-color: black; 
+        padding: 10px 0; 
+        font-size: 3rem;
+    }
+
+    nav ul li {
+        margin-right: 5px; 
+    }
+
+    header {
+        font-size: 1.2rem; 
+    }
+}
+
 
 
 
